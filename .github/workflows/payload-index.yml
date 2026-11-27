@@ -1,0 +1,17 @@
+name: payload-index
+on: [push, pull_request]
+
+jobs:
+  index:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.x"
+      - name: Verify committed index is up to date
+        run: python -m payload_index.build --check
+      - name: Validate structured annotations
+        run: python -m payload_index.validate
+      - name: Run index acceptance tests
+        run: python -m unittest discover -s payload_index/tests -v

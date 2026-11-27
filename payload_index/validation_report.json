@@ -1,0 +1,13 @@
+{
+  "stats": {
+    "indexed_entries": 1294,
+    "extracted_units": 1294,
+    "payload_entries": 1056,
+    "wordlist_entries": 67,
+    "code_sample_entries": 170,
+    "detection_string_entries": 1,
+    "violations": 0,
+    "violation_codes": []
+  },
+  "violations": []
+}

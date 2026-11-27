@@ -1,0 +1,17 @@
+{
+  "root": "/home/dev/feedback/uid43138",
+  "B": "/home/dev/feedback/uid43138",
+  "sha": "00412cb6beee81a8875715c36ab70f5fb9e39db8",
+  "wslDistro": "Ubuntu-26.04",
+  "source": {
+    "owner": "swisskyrepo",
+    "repo": "PayloadsAllTheThings",
+    "sha": "00412cb6beee81a8875715c36ab70f5fb9e39db8"
+  },
+  "fork": {
+    "owner": "Rrr119",
+    "repo": "PayloadsAllTheThings",
+    "cloneUrl": "https://github.com/Rrr119/PayloadsAllTheThings.git"
+  },
+  "at": "2026-11-26T23:52:48.746Z"
+}

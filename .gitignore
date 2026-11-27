@@ -1,3 +1,5 @@
 BuildPDF/
 .vscode
 .todo
+__pycache__/
+*.pyc
